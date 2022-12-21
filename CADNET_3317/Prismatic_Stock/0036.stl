@@ -1,0 +1,86 @@
+solid C:\Temp\NOELParts\WP.STL created by CtrlView V2.70
+facet normal 0 1 0
+outer loop
+vertex 177.698 101.6 0
+vertex 0 101.6 0
+vertex 177.698 101.6 215.9
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 177.698 101.6 215.9
+vertex 0 101.6 0
+vertex 0 101.6 215.9
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 177.698 0 0
+vertex 177.698 101.6 0
+vertex 177.698 0 215.9
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 177.698 0 215.9
+vertex 177.698 101.6 0
+vertex 177.698 101.6 215.9
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0 0 0
+vertex 0 101.6 0
+vertex 177.698 0 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 177.698 0 0
+vertex 0 101.6 0
+vertex 177.698 101.6 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 0 215.9
+vertex 0 101.6 215.9
+vertex 0 0 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 0 0
+vertex 0 101.6 215.9
+vertex 0 101.6 0
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 177.698 0 215.9
+vertex 177.698 101.6 215.9
+vertex 0 0 215.9
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 0 0 215.9
+vertex 177.698 101.6 215.9
+vertex 0 101.6 215.9
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 177.698 0 0
+vertex 177.698 0 215.9
+vertex 0 0 0
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 0 0 0
+vertex 177.698 0 215.9
+vertex 0 0 215.9
+endloop
+endfacet
+endsolid

@@ -1,0 +1,86 @@
+solid C:\Temp\NOELParts\CC0805.STL created by CtrlView V2.70
+facet normal 0 0 1
+outer loop
+vertex 0 0 1.27
+vertex 4.064 0 1.27
+vertex 0 1.651 1.27
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 0 1.651 1.27
+vertex 4.064 0 1.27
+vertex 4.064 1.651 1.27
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 0 0
+vertex 0 0 1.27
+vertex 0 1.651 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 1.651 0
+vertex 0 0 1.27
+vertex 0 1.651 1.27
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 4.064 0 0
+vertex 4.064 0 1.27
+vertex 0 0 0
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 0 0 0
+vertex 4.064 0 1.27
+vertex 0 0 1.27
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 4.064 1.651 0
+vertex 4.064 1.651 1.27
+vertex 4.064 0 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 4.064 0 0
+vertex 4.064 1.651 1.27
+vertex 4.064 0 1.27
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0 1.651 0
+vertex 0 1.651 1.27
+vertex 4.064 1.651 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 4.064 1.651 0
+vertex 0 1.651 1.27
+vertex 4.064 1.651 1.27
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0 0 0
+vertex 0 1.651 0
+vertex 4.064 0 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 4.064 0 0
+vertex 0 1.651 0
+vertex 4.064 1.651 0
+endloop
+endfacet
+endsolid

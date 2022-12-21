@@ -1,0 +1,86 @@
+solid C:\Temp\NOELParts\DIP_24W.STL created by CtrlView V2.70
+facet normal 0 0 1
+outer loop
+vertex 0 33.02 5.08
+vertex 0 0 5.08
+vertex 20.32 33.02 5.08
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 20.32 33.02 5.08
+vertex 0 0 5.08
+vertex 20.32 0 5.08
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0 33.02 0
+vertex 0 33.02 5.08
+vertex 20.32 33.02 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 20.32 33.02 0
+vertex 0 33.02 5.08
+vertex 20.32 33.02 5.08
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 0 0
+vertex 0 0 5.08
+vertex 0 33.02 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 33.02 0
+vertex 0 0 5.08
+vertex 0 33.02 5.08
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 20.32 0 0
+vertex 20.32 0 5.08
+vertex 0 0 0
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 0 0 0
+vertex 20.32 0 5.08
+vertex 0 0 5.08
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 20.32 33.02 0
+vertex 20.32 33.02 5.08
+vertex 20.32 0 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 20.32 0 0
+vertex 20.32 33.02 5.08
+vertex 20.32 0 5.08
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0 33.02 0
+vertex 20.32 33.02 0
+vertex 0 0 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0 0 0
+vertex 20.32 33.02 0
+vertex 20.32 0 0
+endloop
+endfacet
+endsolid

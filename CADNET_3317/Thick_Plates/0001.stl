@@ -1,0 +1,310 @@
+solid C:\Temp\NOELParts\20.STL created by CtrlView V2.70
+facet normal 0 0 1
+outer loop
+vertex 100 98.9136 62.7097
+vertex 0 98.9136 62.7097
+vertex 100 73.9136 62.7097
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 100 73.9136 62.7097
+vertex 0 98.9136 62.7097
+vertex 0 73.9136 62.7097
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 100 73.9136 62.7097
+vertex 0 73.9136 62.7097
+vertex 100 73.9136 27.7097
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 100 73.9136 27.7097
+vertex 0 73.9136 62.7097
+vertex 0 73.9136 27.7097
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 100 73.9136 27.7097
+vertex 0 73.9136 27.7097
+vertex 100 25 27.7097
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 100 25 27.7097
+vertex 0 73.9136 27.7097
+vertex 0 25 27.7097
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 100 25 27.7097
+vertex 0 25 27.7097
+vertex 100 25 62.7097
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 100 25 62.7097
+vertex 0 25 27.7097
+vertex 0 25 62.7097
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 27.5 98.9136 0
+vertex 0 98.9136 0
+vertex 27.5 98.9136 6
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 27.5 98.9136 6
+vertex 0 98.9136 0
+vertex 0 98.9136 62.7097
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 27.5 98.9136 6
+vertex 0 98.9136 62.7097
+vertex 72.5 98.9136 6
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 72.5 98.9136 6
+vertex 0 98.9136 62.7097
+vertex 100 98.9136 62.7097
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 72.5 98.9136 6
+vertex 100 98.9136 62.7097
+vertex 72.5 98.9136 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 72.5 98.9136 0
+vertex 100 98.9136 62.7097
+vertex 100 98.9136 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 73.9136 62.7097
+vertex 0 98.9136 62.7097
+vertex 0 73.9136 27.7097
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 73.9136 27.7097
+vertex 0 98.9136 62.7097
+vertex 0 98.9136 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 73.9136 27.7097
+vertex 0 98.9136 0
+vertex 0 25 27.7097
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 25 27.7097
+vertex 0 98.9136 0
+vertex 0 0 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 25 27.7097
+vertex 0 0 0
+vertex 0 25 62.7097
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 25 62.7097
+vertex 0 0 0
+vertex 0 0 62.7097
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 100 25 62.7097
+vertex 0 25 62.7097
+vertex 100 0 62.7097
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 100 0 62.7097
+vertex 0 25 62.7097
+vertex 0 0 62.7097
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 100 25 62.7097
+vertex 100 0 62.7097
+vertex 100 25 27.7097
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 100 25 27.7097
+vertex 100 0 62.7097
+vertex 100 0 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 100 25 27.7097
+vertex 100 0 0
+vertex 100 73.9136 27.7097
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 100 73.9136 27.7097
+vertex 100 0 0
+vertex 100 98.9136 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 100 73.9136 27.7097
+vertex 100 98.9136 0
+vertex 100 73.9136 62.7097
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 100 73.9136 62.7097
+vertex 100 98.9136 0
+vertex 100 98.9136 62.7097
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 100 98.9136 0
+vertex 100 0 0
+vertex 72.5 98.9136 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 72.5 98.9136 0
+vertex 100 0 0
+vertex 72.5 0 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 72.5 98.9136 6
+vertex 72.5 98.9136 0
+vertex 72.5 0 6
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 72.5 0 6
+vertex 72.5 98.9136 0
+vertex 72.5 0 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 27.5 98.9136 6
+vertex 72.5 98.9136 6
+vertex 27.5 0 6
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 27.5 0 6
+vertex 72.5 98.9136 6
+vertex 72.5 0 6
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 27.5 98.9136 0
+vertex 27.5 98.9136 6
+vertex 27.5 0 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 27.5 0 0
+vertex 27.5 98.9136 6
+vertex 27.5 0 6
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0 0 0
+vertex 0 98.9136 0
+vertex 27.5 0 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 27.5 0 0
+vertex 0 98.9136 0
+vertex 27.5 98.9136 0
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 72.5 0 0
+vertex 100 0 0
+vertex 72.5 0 6
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 72.5 0 6
+vertex 100 0 0
+vertex 100 0 62.7097
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 72.5 0 6
+vertex 100 0 62.7097
+vertex 27.5 0 6
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 27.5 0 6
+vertex 100 0 62.7097
+vertex 0 0 62.7097
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 27.5 0 6
+vertex 0 0 62.7097
+vertex 27.5 0 0
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 27.5 0 0
+vertex 0 0 62.7097
+vertex 0 0 0
+endloop
+endfacet
+endsolid

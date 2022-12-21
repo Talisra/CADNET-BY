@@ -1,0 +1,86 @@
+solid C:\Temp\NOELParts\MIXER_M_PRT.STL created by CtrlView V2.70
+facet normal 0 0 1
+outer loop
+vertex 13 0 5.08
+vertex 13 19 5.08
+vertex 0 0 5.08
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 0 0 5.08
+vertex 13 19 5.08
+vertex 0 19 5.08
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 13 0 0
+vertex 13 0 5.08
+vertex 0 0 0
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 0 0 0
+vertex 13 0 5.08
+vertex 0 0 5.08
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 13 19 0
+vertex 13 19 5.08
+vertex 13 0 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 13 0 0
+vertex 13 19 5.08
+vertex 13 0 5.08
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0 19 0
+vertex 0 19 5.08
+vertex 13 19 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 13 19 0
+vertex 0 19 5.08
+vertex 13 19 5.08
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 0 0
+vertex 0 0 5.08
+vertex 0 19 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 19 0
+vertex 0 0 5.08
+vertex 0 19 5.08
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 13 0 0
+vertex 0 0 0
+vertex 13 19 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 13 19 0
+vertex 0 0 0
+vertex 0 19 0
+endloop
+endfacet
+endsolid

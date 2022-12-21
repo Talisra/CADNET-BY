@@ -1,0 +1,142 @@
+solid C:\Temp\NOELParts\BLUCO_412158_II.STL created by CtrlView V2.70
+facet normal -0.964205 0.265157 0
+outer loop
+vertex 37.6964 14.6236 0
+vertex 37.6964 14.6236 40
+vertex 43.2999 35 0
+endloop
+endfacet
+facet normal -0.964205 0.265157 0
+outer loop
+vertex 43.2999 35 0
+vertex 37.6964 14.6236 40
+vertex 43.2999 35 40
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0 14.6236 40
+vertex 37.6964 14.6236 40
+vertex 0 14.6236 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0 14.6236 0
+vertex 37.6964 14.6236 40
+vertex 37.6964 14.6236 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 72.6316 35 0
+vertex 43.2999 35 0
+vertex 72.6316 35 40
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 72.6316 35 40
+vertex 43.2999 35 0
+vertex 43.2999 35 40
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 43.2999 35 0
+vertex 72.6316 35 0
+vertex 37.6964 14.6236 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 37.6964 14.6236 0
+vertex 72.6316 35 0
+vertex 72.6316 0 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 37.6964 14.6236 0
+vertex 72.6316 0 0
+vertex 0 14.6236 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0 14.6236 0
+vertex 72.6316 0 0
+vertex 0 0 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 14.6236 40
+vertex 0 14.6236 0
+vertex 0 0 40
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 0 40
+vertex 0 14.6236 0
+vertex 0 0 0
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 0 14.6236 40
+vertex 0 0 40
+vertex 37.6964 14.6236 40
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 37.6964 14.6236 40
+vertex 0 0 40
+vertex 72.6316 0 40
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 37.6964 14.6236 40
+vertex 72.6316 0 40
+vertex 43.2999 35 40
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 43.2999 35 40
+vertex 72.6316 0 40
+vertex 72.6316 35 40
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 72.6316 35 0
+vertex 72.6316 35 40
+vertex 72.6316 0 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 72.6316 0 0
+vertex 72.6316 35 40
+vertex 72.6316 0 40
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 0 0 0
+vertex 72.6316 0 0
+vertex 0 0 40
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 0 0 40
+vertex 72.6316 0 0
+vertex 72.6316 0 40
+endloop
+endfacet
+endsolid

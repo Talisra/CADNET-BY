@@ -1,0 +1,114 @@
+solid C:\Temp\NOELParts\PLCC_32.STL created by CtrlView V2.70
+facet normal -0.707107 0.707107 0
+outer loop
+vertex 0 13.081 0
+vertex 0 13.081 3.556
+vertex 0.635 13.716 0
+endloop
+endfacet
+facet normal -0.707107 0.707107 0
+outer loop
+vertex 0.635 13.716 0
+vertex 0 13.081 3.556
+vertex 0.635 13.716 3.556
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 0 0 3.556
+vertex 16.256 0 3.556
+vertex 0 13.081 3.556
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 0 13.081 3.556
+vertex 16.256 0 3.556
+vertex 16.256 13.716 3.556
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 0 13.081 3.556
+vertex 16.256 13.716 3.556
+vertex 0.635 13.716 3.556
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 0 0
+vertex 0 0 3.556
+vertex 0 13.081 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 13.081 0
+vertex 0 0 3.556
+vertex 0 13.081 3.556
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 16.256 0 0
+vertex 16.256 0 3.556
+vertex 0 0 0
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 0 0 0
+vertex 16.256 0 3.556
+vertex 0 0 3.556
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 16.256 13.716 0
+vertex 16.256 13.716 3.556
+vertex 16.256 0 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 16.256 0 0
+vertex 16.256 13.716 3.556
+vertex 16.256 0 3.556
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0.635 13.716 0
+vertex 0.635 13.716 3.556
+vertex 16.256 13.716 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 16.256 13.716 0
+vertex 0.635 13.716 3.556
+vertex 16.256 13.716 3.556
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 16.256 13.716 0
+vertex 16.256 0 0
+vertex 0.635 13.716 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0.635 13.716 0
+vertex 16.256 0 0
+vertex 0 0 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0.635 13.716 0
+vertex 0 0 0
+vertex 0 13.081 0
+endloop
+endfacet
+endsolid

@@ -1,0 +1,86 @@
+solid C:\Temp\NOELParts\W2_PRT.STL created by CtrlView V2.70
+facet normal 0 -1 0
+outer loop
+vertex 0 180.975 279.4
+vertex 0 180.975 0
+vertex 254 180.975 279.4
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 254 180.975 279.4
+vertex 0 180.975 0
+vertex 254 180.975 0
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 0 282.575 279.4
+vertex 0 180.975 279.4
+vertex 254 282.575 279.4
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 254 282.575 279.4
+vertex 0 180.975 279.4
+vertex 254 180.975 279.4
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 254 282.575 279.4
+vertex 254 180.975 279.4
+vertex 254 282.575 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 254 282.575 0
+vertex 254 180.975 279.4
+vertex 254 180.975 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 254 282.575 0
+vertex 254 180.975 0
+vertex 0 282.575 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0 282.575 0
+vertex 254 180.975 0
+vertex 0 180.975 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 282.575 0
+vertex 0 180.975 0
+vertex 0 282.575 279.4
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 282.575 279.4
+vertex 0 180.975 0
+vertex 0 180.975 279.4
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0 282.575 279.4
+vertex 254 282.575 279.4
+vertex 0 282.575 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0 282.575 0
+vertex 254 282.575 279.4
+vertex 254 282.575 0
+endloop
+endfacet
+endsolid

@@ -1,0 +1,86 @@
+solid C:\Temp\NOELParts\SIP6_.STL created by CtrlView V2.70
+facet normal -1 0 0
+outer loop
+vertex 0 0 0
+vertex 0 0 8.89
+vertex 0 15.24 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 15.24 0
+vertex 0 0 8.89
+vertex 0 15.24 8.89
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0 15.24 0
+vertex 0 15.24 8.89
+vertex 2.54 15.24 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 2.54 15.24 0
+vertex 0 15.24 8.89
+vertex 2.54 15.24 8.89
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 2.54 15.24 8.89
+vertex 0 15.24 8.89
+vertex 2.54 0 8.89
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 2.54 0 8.89
+vertex 0 15.24 8.89
+vertex 0 0 8.89
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 2.54 0 0
+vertex 2.54 0 8.89
+vertex 0 0 0
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 0 0 0
+vertex 2.54 0 8.89
+vertex 0 0 8.89
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 2.54 15.24 0
+vertex 2.54 0 0
+vertex 0 15.24 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0 15.24 0
+vertex 2.54 0 0
+vertex 0 0 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 2.54 15.24 0
+vertex 2.54 15.24 8.89
+vertex 2.54 0 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 2.54 0 0
+vertex 2.54 15.24 8.89
+vertex 2.54 0 8.89
+endloop
+endfacet
+endsolid

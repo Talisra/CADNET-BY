@@ -1,0 +1,86 @@
+solid C:\Temp\NOELParts\SOIC16__PRT.STL created by CtrlView V2.70
+facet normal 0 0 1
+outer loop
+vertex 0 0 1.778
+vertex 8.128 0 1.778
+vertex 0 10.16 1.778
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 0 10.16 1.778
+vertex 8.128 0 1.778
+vertex 8.128 10.16 1.778
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 0 0
+vertex 0 0 1.778
+vertex 0 10.16 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 10.16 0
+vertex 0 0 1.778
+vertex 0 10.16 1.778
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 8.128 0 0
+vertex 8.128 0 1.778
+vertex 0 0 0
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 0 0 0
+vertex 8.128 0 1.778
+vertex 0 0 1.778
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 8.128 10.16 0
+vertex 8.128 10.16 1.778
+vertex 8.128 0 0
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 8.128 0 0
+vertex 8.128 10.16 1.778
+vertex 8.128 0 1.778
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0 10.16 0
+vertex 0 10.16 1.778
+vertex 8.128 10.16 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 8.128 10.16 0
+vertex 0 10.16 1.778
+vertex 8.128 10.16 1.778
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0 0 0
+vertex 0 10.16 0
+vertex 8.128 0 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 8.128 0 0
+vertex 0 10.16 0
+vertex 8.128 10.16 0
+endloop
+endfacet
+endsolid

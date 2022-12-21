@@ -1,0 +1,86 @@
+solid C:\Temp\NOELParts\STOCK_MFG_PRT.STL created by CtrlView V2.70
+facet normal 0 1 0
+outer loop
+vertex 0 80 180
+vertex 180 80 180
+vertex 0 80 0
+endloop
+endfacet
+facet normal 0 1 0
+outer loop
+vertex 0 80 0
+vertex 180 80 180
+vertex 180 80 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 0 180
+vertex 0 80 180
+vertex 0 0 0
+endloop
+endfacet
+facet normal -1 0 0
+outer loop
+vertex 0 0 0
+vertex 0 80 180
+vertex 0 80 0
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 180 0 180
+vertex 180 80 180
+vertex 0 0 180
+endloop
+endfacet
+facet normal 0 0 1
+outer loop
+vertex 0 0 180
+vertex 180 80 180
+vertex 0 80 180
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 180 0 0
+vertex 180 80 0
+vertex 180 0 180
+endloop
+endfacet
+facet normal 1 0 0
+outer loop
+vertex 180 0 180
+vertex 180 80 0
+vertex 180 80 180
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 0 0 0
+vertex 0 80 0
+vertex 180 0 0
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 180 0 0
+vertex 0 80 0
+vertex 180 80 0
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 0 0 180
+vertex 0 0 0
+vertex 180 0 180
+endloop
+endfacet
+facet normal 0 -1 0
+outer loop
+vertex 180 0 180
+vertex 0 0 0
+vertex 180 0 0
+endloop
+endfacet
+endsolid
