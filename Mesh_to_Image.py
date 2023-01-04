@@ -70,7 +70,7 @@ def get_angles():
 
 
 class Mesh_to_Image:
-    def __init__(self, image_folder='data_train', files_list='file_list.txt', rot_angle=None):
+    def __init__(self, image_folder='data_train', files_list='file_list_2.txt', rot_angle=None):
         """
         :param image_folder: Folder where all the images of mesh model will be saved
         :param files_list: .txt file which contain all mesh models name
@@ -104,7 +104,9 @@ class Mesh_to_Image:
             axes.add_collection3d(mplot3d.art3d.Poly3DCollection(Mesh.vectors, edgecolor='k'))
 
             # Auto scale to the mesh size
-            scale = Mesh.points.flatten(1)
+            # scale = Mesh.points.flatten(1)
+
+            scale = Mesh.points.flatten() #BY https://numpy.org/doc/stable/reference/generated/numpy.ndarray.flatten.html
             axes.auto_scale_xyz(scale, scale, scale)
             axes.set_axis_off()
 
@@ -113,7 +115,7 @@ class Mesh_to_Image:
             for angle in self.rot_angle:
                 angle_no += 1
                 axes.view_init(angle[0], angle[1])
-                category_folder = file_path.split('/')[-2]
+                category_folder = file_path.split('\\')[-2]
 
                 # if angle == self.rot_angle[0] or angle == self.rot_angle[1]:
                 #     folder_path = path.join(self.image_folder, 'data_1', category_folder)
@@ -145,7 +147,11 @@ class Mesh_to_Image:
                 # plt.close(figure)
 
 
+#BY 22122022
+#Look for file_list files
+
+
 if __name__ == "__main__":
 
-    Mesh_to_Image(image_folder='Data_lfd', files_list= 'file_list.txt')
+    Mesh_to_Image(image_folder='Data_lfd', files_list= 'file_list_2.txt')
 

@@ -9,7 +9,7 @@ class File_Searcher:
         :param search_folder: Folder name where files will be searched
         :param output_file: .txt file name which will have all the file path which have file extension == file_extension
         """
-        assert path.isdir(search_folder)
+        assert path.isdir(search_folder)   #https://www.geeksforgeeks.org/python-os-path-isdir-method/
         self.output_file = output_file
         self.limit = limit
         self.search_folder = search_folder
@@ -22,7 +22,7 @@ class File_Searcher:
         output_file_count = 1
         text_file = open(f"{self.output_file}_{output_file_count}.txt", 'w')
         count = 0
-        for r, d, files in walk(self.search_folder):
+        for r, d, files in walk(self.search_folder):  #https://www.tutorialspoint.com/python/os_walk.htm
             for file in files:
                 _, extension = path.splitext(file)
                 if extension in self.file_extension:
@@ -39,4 +39,4 @@ if __name__ == "__main__":
     # lis = ['test', 'train']
     # for name in lis:
     File_Searcher(search_folder='CADNET_3317', output_file='file_list',
-                  limit=2000)
+                  limit=100000) #2000)

@@ -2,7 +2,7 @@
 
 from keras.callbacks import TensorBoard, ModelCheckpoint
 from sklearn.metrics import confusion_matrix
-from trainingplot import TrainingPlot
+# from trainingplot import TrainingPlot
 
 import time
 import numpy as np
@@ -46,12 +46,15 @@ def network():
 
     # Optimise the class weight because of class imbalance
     from sklearn.utils import class_weight
-    class_weights = class_weight.compute_class_weight('balanced',
-                                                      np.unique(training_set.classes),
-                                                      training_set.classes)
+    # class_weights = class_weight.compute_class_weight('balanced', np.unique(training_set.classes),training_set.classes)
+    class_weights = class_weight.compute_class_weight(
+                class_weight = 'balanced',
+                classes = np.unique(training_set.classes),
+                y = training_set.classes)
 
     # Initialising the CNN
-    from keras.models import Model,Input
+    from keras.models import Model
+    from keras import Input
     from keras.optimizers import Adam
     from keras.layers import Dense, Conv2D, MaxPooling2D, Flatten,\
         AveragePooling2D, Dropout, BatchNormalization, Activation, add
@@ -154,21 +157,22 @@ def network():
         json_file.write(model_json)
 
 
-    plot_losses = TrainingPlot(filename=plot_dir + str(np_epochs) + '.jpg')
+    # plot_losses = TrainingPlot(filename=plot_dir + str(np_epochs) + '.jpg')
     tensorboard = TensorBoard(log_dir='TFlogs/CADNET_LFD_Logs/{}'.format(time.time()))
     checkpoint = ModelCheckpoint(WEIGHT_FOLDER_NAME + "{epoch:02d}-{val_acc:.2f}.model", monitor='val_acc',
                                  verbose=1, save_best_only=True, mode='max') # saves only the best ones
 
     start = time.time()
 
-    history = model.fit_generator(training_set,
+    history = model.fit(training_set,  training_set.labels,   # model.fit_generator(training_set,
                                    steps_per_epoch=steps_per_epoch,
-                                  epochs=np_epochs,
+                                   epochs=np_epochs,
                                    validation_data=test_set,
-                                  validation_steps=test_set.samples,
+                                   validation_steps=test_set.samples,
                                    class_weight=class_weights,
                                    callbacks=[tensorboard, checkpoint],
                                    verbose=1)
+
 
     training_time = printTime(start)
 

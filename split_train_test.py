@@ -1,6 +1,8 @@
 import os, random, shutil
 
 
+#TODO BY # Make so it can overwrite dir and files and creates new folders each data generation
+
 def split_train_test(dir, test_split=5):
 
 
@@ -37,7 +39,8 @@ def split_train_test(dir, test_split=5):
 
 
 if __name__ == "__main__":
-    split_train_test('/home/bharadwaj/Research/Classification/Data_lfd')
+    split_train_test('E:\Promai\CADNET\CADNET_BY\Data_lfd')
+    # split_train_test('/home/bharadwaj/Research/Classification/Data_lfd')
     # dir = 'Image_Folder'
     # for folder in os.listdir(dir):
     #     split_train_test(os.path.join(dir,folder))
