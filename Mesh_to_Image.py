@@ -153,5 +153,5 @@ class Mesh_to_Image:
 
 if __name__ == "__main__":
 
-    Mesh_to_Image(image_folder='Data_lfd', files_list= 'file_list_2.txt')
+    Mesh_to_Image(image_folder='Data_lfd', files_list= 'file_list_1.txt')
 

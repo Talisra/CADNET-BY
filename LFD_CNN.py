@@ -20,7 +20,7 @@ def network():
     test_folder = 'Data_lfd_split_train_test/test_dir'
     target_size = (256, 256)
     batch_size = 20
-    np_epochs = 100
+    np_epochs = 1 #100
     dropout = 0.2
 
     train_datagen = ImageDataGenerator(rescale=1./ 255,
@@ -47,10 +47,14 @@ def network():
     # Optimise the class weight because of class imbalance
     from sklearn.utils import class_weight
     # class_weights = class_weight.compute_class_weight('balanced', np.unique(training_set.classes),training_set.classes)
+    # class_weights = {i: class_weights[i] for i in range(5)}
+
     class_weights = class_weight.compute_class_weight(
                 class_weight = 'balanced',
                 classes = np.unique(training_set.classes),
                 y = training_set.classes)
+    class_weights = {i: class_weights[i] for i in range(len(class_weights))}   # 5
+
 
     # Initialising the CNN
     from keras.models import Model
@@ -164,7 +168,7 @@ def network():
 
     start = time.time()
 
-    history = model.fit(training_set,  training_set.labels,   # model.fit_generator(training_set,
+    history = model.fit(training_set,   # model.fit_generator(training_set,
                                    steps_per_epoch=steps_per_epoch,
                                    epochs=np_epochs,
                                    validation_data=test_set,
