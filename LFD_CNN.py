@@ -20,7 +20,7 @@ def network():
     test_folder = 'Data_lfd_split_train_test/test_dir'
     target_size = (256, 256)
     batch_size = 20
-    np_epochs = 1 #100
+    np_epochs = 2 #100
     dropout = 0.2
 
     train_datagen = ImageDataGenerator(rescale=1./ 255,
